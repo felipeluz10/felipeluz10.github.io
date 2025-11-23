@@ -1,10 +1,13 @@
 # Copyright Notice
 # Copyright Notice
-copyright: © 2020 Copyright.
+copyright: © 2025 Felipe Luz.
 
 # Meta description for your site.  This will help the search engines to find your site.
 description: "Portfólio e blog de Felipe Luz. Artigos sobre Engenharia de Dados, Python, Docker e desenvolvimento de sistemas."
-keywords: ["Python", "Engenharia de Dados", "Docker", "Analista de Sistemas", "São Paulo"]  
+keywords: ["Python", "Engenharia de Dados", "Docker", "Analista de Sistemas", "São Paulo", "Portfólio", "Engenheiro de Software", "Desenvolvimento Web", "Hugo"]
+
+author:
+  name: "Felipe Luz"
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -24,3 +27,5 @@ openGraph:
   description: "Portfólio e blog de Felipe Luz. Artigos sobre Engenharia de Dados, Python, Docker e desenvolvimento de sistemas."
   image: images/author.png
   url: https://felipeluz.dev
+  site_name: "Felipe Luz"
+  locale: "pt_BR"
