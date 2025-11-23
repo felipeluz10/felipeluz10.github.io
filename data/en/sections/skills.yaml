@@ -2,36 +2,94 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 4
+  weight: 1
   showOnNavbar: true
   template: sections/skills.html
-  filter: false
+  filter: true
+
+buttons:
+- name: All
+  filter: "all"
+- name: Basic
+  filter: "basic"
+- name: Language
+  filter: "language"
+- name: Container
+  filter: "container"
+- name: Others
+  filter: "others"
+
 
 skills:
   # --- O Motor da IA e Backend Moderno (Topo da lista) ---
   - name: Python
+    logo: /images/sections/skills/python-logo.png
+    summary: "Proficient in Python programming, including scripting, automation, and web development."
+    categories: ["language"]
+    url: "https://www.python.org/"
   - name: PostgreSQL
+    logo: /images/sections/skills/postgressql-logo.png
+    summary: "Experienced with PostgreSQL relational databases, schema design."
+    categories: ["others"]
+    url: "https://www.postgresql.org/"
   - name: Docker
+    logo: /images/sections/skills/docker-logo.png
+    summary: "Skilled in containerizing applications with Docker, building images, and orchestrating containers."
+    categories: ["container"]
+    url: "https://www.docker.com/"
   - name: Linux
+    logo: /images/sections/skills/linux-logo.png
+    summary: "Comfortable working with Linux systems, command‑line tools, and shell scripting."
+    categories: ["others"]
+    url: "https://www.linux.org/"
   - name: API REST
+    logo: /images/sections/skills/api-logo.png
+    summary: "Design and implementation of RESTful APIs using modern frameworks."
+    categories: ["basic"]
+    url: "https://restfulapi.net/"
   - name: Git
+    logo: /images/sections/skills/git-logo.png
+    summary: "Version control with Git, branching strategies, and collaboration workflows."
+    categories: ["basic"]
+    url: "https://git-scm.com/"
   - name: SQL
-
-  # --- Sua Base Sênior (O que paga as contas hoje) ---
+    logo: /images/sections/skills/sql-logo.png
+    summary: "Strong SQL query writing, data manipulation."
+    categories: ["basic"]
+    url: "https://en.wikipedia.org/wiki/SQL"
   - name: PHP
-  - name: Microsoft SQL Server
-  - name: Transact-SQL
-  - name: MySQL
-  
-  # --- Frontend / Web (Essencial, mas secundário) ---
+    logo: /images/sections/skills/php-logo.png
+    summary: "Web development with PHP, including frameworks like Laravel and Symfony."
+    categories: ["language"]
+    url: "https://www.php.net/"
   - name: JavaScript
+    logo: /images/sections/skills/javascript-logo.png
+    summary: "BasicFrontend JavaScript development"
+    categories: ["basic"]
+    url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   - name: HTML5
+    logo: /images/sections/skills/html5-logo.png
+    summary: "Markup language for structuring web content, semantic HTML5 features."
+    categories: ["basic"]
+    url: "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
   - name: CSS
-  
-  # --- Integração e Legado (Mostra que sabe lidar com sistemas antigos) ---
+    logo: /images/sections/skills/css-logo.png
+    summary: "Styling web pages with CSS, including Flexbox, Grid, and responsive design."
+    categories: ["basic"]
+    url: "https://developer.mozilla.org/en-US/docs/Web/CSS"
   - name: SOAP
+    logo: /images/sections/skills/soap-logo.png
+    summary: "Integration with SOAP web services, WSDL handling, and XML processing."
+    categories: ["others"]
+    url: "https://en.wikipedia.org/wiki/SOAP"
   - name: XML
+    logo: /images/sections/skills/xml-logo.png
+    summary: "Working with XML data formats, parsing, and transformation."
+    categories: ["others"]
+    url: "https://www.w3.org/XML/"
   - name: UML
+    logo: /images/sections/skills/uml-logo.png
+    summary: "Modeling software architecture and designs using UML diagrams."
+    categories: ["others"]
+    url: "https://www.uml.org/"
   
-  # --- Ferramentas ---
-  - name: Visual Studio Code

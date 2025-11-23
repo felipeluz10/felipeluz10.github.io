@@ -23,6 +23,9 @@ params:
   # Background image of the landing page
   background: images/site/background.png
 
+  logo:
+    favicon: images/site/favicon.png
+
   features:
    # Configure theme color settings
     theme:
@@ -66,7 +69,7 @@ params:
   footer:
     enable: false
     
-  # Personal Information
+  # Personal Information 
   author:
     name: "Felipe Luz"
     email: "felipe_meno@yahoo.com.br"

@@ -3,7 +3,8 @@
 copyright: © 2020 Copyright.
 
 # Meta description for your site.  This will help the search engines to find your site.
-description: Portifólio e blog pessoal de Felipe Luz.
+description: "Portfólio e blog de Felipe Luz. Artigos sobre Engenharia de Dados, Python, Docker e desenvolvimento de sistemas."
+keywords: ["Python", "Engenharia de Dados", "Docker", "Analista de Sistemas", "São Paulo"]  
 
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
@@ -20,6 +21,6 @@ description: Portifólio e blog pessoal de Felipe Luz.
 openGraph:
   title: Blog do Felipe
   type: website
-  description: Portfolio and personal blog of Felipe Luz.
+  description: "Portfólio e blog de Felipe Luz. Artigos sobre Engenharia de Dados, Python, Docker e desenvolvimento de sistemas."
   image: images/author.png
   url: https://felipeluz.dev
