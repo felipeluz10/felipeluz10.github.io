@@ -1,5 +1,7 @@
 name: "Felipe Luz"
-email: "felipe_meno@yahoo.com.br"
+email: "contato@felipeluz.dev"
+contactInfo:
+  email: "contato@felipeluz.dev"
 image: "/images/author.png"
 job: "Software Engineer"
 location: "São Paulo, Brazil"

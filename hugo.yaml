@@ -39,9 +39,6 @@ params:
     portfolio:
       enable: true
 
-    # Enable blog posts
-    blog:
-      enable: false
 
     # Enable Table of contents in reading page
     toc:
@@ -67,10 +64,12 @@ params:
 
   # Configure footer
   footer:
-    enable: false
+    enable: true
+    newsletter:
+      enable: false
     
   # Personal Information 
   author:
     name: "Felipe Luz"
-    email: "felipe_meno@yahoo.com.br"
+    email: "contato@felipeluz.dev"
     # Add more personal info in data/author.yaml
