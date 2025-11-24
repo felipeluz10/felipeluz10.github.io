@@ -1,0 +1,21 @@
+section:
+  name: Freelance
+  id: freelance
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/freelance.html
+
+services:
+  - name: Desenvolvimento Web
+    description: "Criação de sites e aplicações web modernas, responsivas e otimizadas para SEO."
+    icon: fa-solid fa-code
+  - name: Engenharia de Dados
+    description: "Construção de pipelines de dados, ETL e integração de sistemas."
+    icon: fa-solid fa-database
+  - name: Automação de Scripts
+    description: "Desenvolvimento de scripts para automação de tarefas repetitivas e processamento de dados."
+    icon: fa-solid fa-robot
+  - name: Consultoria em Cloud
+    description: "Apoio na migração e gerenciamento de infraestrutura em nuvem (AWS, Azure, GCP)."
+    icon: fa-solid fa-cloud
