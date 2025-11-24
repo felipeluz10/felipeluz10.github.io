@@ -1,6 +1,6 @@
 section:
-  name: Freelance
-  id: freelance
+  name: Consulting
+  id: consulting
   enable: true
   weight: 2
   showOnNavbar: true

@@ -2,7 +2,7 @@ section:
   name: Formação acadêmica
   id: education
   enable: true
-  weight: 3
+  weight: 5
   showOnNavbar: true
   template: sections/education.html
 
